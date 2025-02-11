@@ -1,0 +1,165 @@
+@media  (min-width:300px) and (max-width:1601px) {
+ /** Body Section **/
+    .container{
+       font-family: Helvetica;
+       font-size: 22px;
+       color: seashell;
+       background-color: black;
+       opacity: 0.9;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+       width: 1250px;
+    }
+/**________ **/
+
+/** Header Section **/
+    .header{
+        height: 69px;
+        border-bottom: 1px solid seashell;
+        margin-bottom: 0;
+    }
+    .logo,.headertext{
+        display: flex;
+        flex-direction: row;
+    } 
+
+    .logo-image{
+        height: 32px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .headercontent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    p{
+       font-size: 12px;
+       margin-left: 5px;
+       margin-right: 5px;
+       margin-top: 25px;
+       text-decoration: underline;
+    }
+    
+/** _________ **/
+
+/** Mission Section**/
+   .missioncontainer{
+    display: flex;
+     width: 1200px;
+     height: 700px;
+     background-image: url(./Images/img-mission-background.webp);
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 0;
+     flex-direction: column;
+     justify-content: center;
+    }
+   .missionheader{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   }
+   .missiontext, .mission{
+    margin-top: 5px;
+    margin-bottom: 15px;
+   }
+    
+/** ________ **/
+/** Tea Section **/
+  .teacontainer{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .teacard{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .teaheader{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardone{
+    display: flex;
+    flex-direction: column;
+  }
+  .month{
+    margin-bottom: 5px;
+  }
+  .cozy{
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+  .image{
+    height: 200px;
+    width: 300px;
+  }
+  .teapicture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .secondpicture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+/** Location Section **/
+  .locationscontainer{
+    width: 1200px;
+    height: 550px;
+    background-image: url('./Images/img-locations-background.webp');
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .locationscard{
+    display: flex;
+    flex-direction: column;
+  }
+  .locations{
+    display: flex;
+    flex-direction: column;
+  }
+  .locationsheader{
+    margin-bottom: 30px;
+  }
+  .locationscardone{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    gap: 40px;
+
+  }
+  .downtown, .oakdale, .bayside{
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+  }
+
+/** _____________ **/
+
+/** Last Section **/
+   .lastcontainer{
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+/** ___________ **/
+
+/** footer section **/
+   footer{
+    height: 35px;
+    text-align: left;
+    margin-left:20px;
+   }
+/** _____________ **/
+}
+
